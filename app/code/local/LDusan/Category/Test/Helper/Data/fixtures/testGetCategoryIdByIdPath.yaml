@@ -1,0 +1,11 @@
+config:
+  web/unsecure/base_url: http://localhost/magento/
+  web/secure/base_url: http://localhost/magento/
+tables:
+  catalog/category:
+    - entity_id: 3
+  core/url_rewrite:
+    - url_rewrite_id: 1
+        id_path: category/3
+        store_id: 0
+        category_id: 3

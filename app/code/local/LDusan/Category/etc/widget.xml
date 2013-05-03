@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<widgets>
+    <category_widget_image type="ldusan_category/category_widget_image" translate="name description" module="catalog">
+        <name>Catalog Category Image</name>
+        <description>Link to a Specified Category</description>
+        <is_email_compatible>1</is_email_compatible>
+        <parameters>
+            <id_path translate="label">
+                <visible>1</visible>
+                <required>1</required>
+                <label>Category</label>
+                <type>label</type>
+                <helper_block>
+                    <type>adminhtml/catalog_category_widget_chooser</type>
+                    <data>
+                        <button translate="open">
+                            <open>Select Category...</open>
+                        </button>
+                    </data>
+                </helper_block>
+                <sort_order>10</sort_order>
+            </id_path>
+        </parameters>
+    </category_widget_image>
+</widgets>

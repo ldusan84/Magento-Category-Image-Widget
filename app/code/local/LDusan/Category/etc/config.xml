@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<LDusan_Category>
+			<version>0.1.0</version>
+		</LDusan_Category>
+	</modules>
+	<global>
+        <blocks>
+            <ldusan_category>
+                <class>LDusan_Category_Block</class>
+            </ldusan_category>
+        </blocks>
+        <helpers>
+            <ldusan_category>
+                <class>LDusan_Category_Helper</class>
+            </ldusan_category>
+        </helpers>
+    </global>
+    <phpunit>
+        <suite>
+            <modules>
+                <LDusan_Category />
+            </modules>
+        </suite>
+    </phpunit>
+</config>

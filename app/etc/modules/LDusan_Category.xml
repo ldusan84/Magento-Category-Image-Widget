@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+   <modules>
+       <LDusan_Category>
+           <active>true</active>
+           <codePool>local</codePool>
+       </LDusan_Category>
+   </modules>
+</config>
