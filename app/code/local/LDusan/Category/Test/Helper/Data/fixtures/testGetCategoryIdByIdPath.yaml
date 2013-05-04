@@ -1,6 +1,3 @@
-config:
-  web/unsecure/base_url: http://localhost/magento/
-  web/secure/base_url: http://localhost/magento/
 tables:
   catalog/category:
     - entity_id: 3
