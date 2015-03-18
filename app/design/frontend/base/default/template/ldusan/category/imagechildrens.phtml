@@ -1,0 +1,14 @@
+<div class="brands">
+	<div class="row">
+	<?php $i=1; ?>
+	<?php foreach ($this->getCollection() as $category) : ?>
+		<div class="col-xs-3">
+			<a title="<?php echo $category->getName(); ?>" href="<?php echo $category->getURL(); ?>">
+				<img src="<?php echo $category->getImageUrl(); ?>" alt="<?php echo $category->getName(); ?>" />
+			</a>
+		</div>
+		<?php if($i % 4 == 0) : ?></div><div class="row"><?php endif; ?>
+		<?php $i++; ?>
+	<? endforeach; ?>
+	</div>
+</div>
